@@ -4,9 +4,14 @@ import clsx from "clsx";
 import CountUp from "react-countup";
 import { plans } from "../constants/index.jsx";
 import Button from "../components/Button.jsx";
+import { openWhatsApp } from "../utils/handleZap.js";
 
 const Pricing = () => {
   const [monthly, setMonthly] = useState(false);
+  
+  const whatsappNumber = "5511977154129";
+  const message = "Olá, vim pelo site de tráfego pago, gostaria de mais informações.";
+
 
   return (
     <section>
@@ -14,7 +19,7 @@ const Pricing = () => {
         <div className="container">
           <div className="max-w-960 pricing-head_before relative mx-auto border-l border-r border-s2 bg-s1/50 pb-40 pt-28 max-xl:max-w-4xl max-lg:border-none max-md:pb-32 max-md:pt-16">
             <h3 className="h3 max-lg:h4 max-md:h5 z-3 relative mx-auto mb-14 max-w-lg text-center text-p4 max-md:mb-11 max-sm:max-w-sm">
-              Flexible pricing for teams of all sizes
+              Preços acessiveis para o seu negocio.
             </h3>
 
             <div className="relative z-4 mx-auto flex w-[375px] rounded-3xl border-[3px] border-s4/25 bg-s1/50 p-2 backdrop-blur-[6px] max-md:w-[310px]">
@@ -22,13 +27,13 @@ const Pricing = () => {
                 className={clsx("pricing-head_btn", monthly && "text-p4")}
                 onClick={() => setMonthly(true)}
               >
-                Monthly
+                Mês
               </button>
               <button
                 className={clsx("pricing-head_btn", !monthly && "text-p4")}
                 onClick={() => setMonthly(false)}
               >
-                Annual
+                Anual
               </button>
 
               <div
@@ -147,12 +152,14 @@ const Pricing = () => {
                 </ul>
 
                 <div className="mt-10 flex w-full justify-center">
-                  <Button icon={plan.icon}>Get Started</Button>
+                  <Button 
+                  onClick={() => openWhatsApp(whatsappNumber, message)}
+                  icon={plan.icon}>Saiba mais</Button>
                 </div>
 
                 {index === 1 && (
                   <p className="small-compact mt-9 text-center text-p3 before:mx-2.5 before:content-['-'] after:mx-2.5 after:content-['-']">
-                    Limited time offer
+                    Tempo limitado
                   </p>
                 )}
               </div>

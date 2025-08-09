@@ -6,6 +6,7 @@ import Faq from "./sections/Faq.jsx";
 import Testimonials from "./sections/Testimonial.jsx";
 import Download from "./sections/Download.jsx";
 import Footer from "./sections/Footer.jsx";
+import BotaoZap from "./WhatsAppTelaFixa.jsx";
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
       <Testimonials />
       <Download />
       <Footer />
+      <BotaoZap/>
     </main>
   );
 };

@@ -43,7 +43,7 @@ const Header = () => {
     >
       <div className="container flex h-14 items-center max-lg:px-5">
         <a className="lg:hidden flex-1 cursor-pointer z-2">
-          <img src="/images/xora.svg" width={115} height={115} alt="logo" />
+          <img src="/images/LOGO.jpg" width={85} height={115} alt="logo" />
         </a>
 
         <div
@@ -56,9 +56,9 @@ const Header = () => {
             <nav className="max-lg:relative max-lg:z-2 max-lg:my-auto">
               <ul className="flex max-lg:block max-lg:px-12">
                 <li className="nav-li">
-                  <NavLink title="features" />
+                  <NavLink title="Tráfego Pago" />
                   <div className="dot" />
-                  <NavLink title="pricing" />
+                  <NavLink title="Planos acessíveis" />
                 </li>
                 <li className="nav-logo">
                   <LinkScroll
@@ -69,8 +69,8 @@ const Header = () => {
                     className="max-lg:hidden transition-transform duration-500 cursor-pointer"
                   >
                     <img
-                      src="/images/xora.svg"
-                      width={160}
+                      src="/images/LOGO.jpg"
+                      width={80}
                       height={55}
                       alt="logo"
                     />

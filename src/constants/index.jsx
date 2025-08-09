@@ -1,25 +1,25 @@
 export const features = [
   {
-    id: "0",
-    icon: "/images/feature-1.png",
-    caption: "Easy integration",
-    title: "Work smarter not harder",
-    text: "With Xora, tedious tasks are history. Automation and smart processes bring your productivity to new heights. It's like having an extra cup of coffee, but without the jitters.",
-    button: {
-      icon: "/images/magictouch.svg",
-      title: "Watch the demo",
-    },
+  id: "0",
+  icon: "/images/feature-1.png",
+  caption: "Gestão inteligente",
+  title: "Trabalhe com dados, não com achismos",
+  text: "Com a Traffic Dev, suas campanhas são otimizadas com estratégia. Dados, testes e automação transformam cada clique em uma oportunidade real de venda.",
+  button: {
+    icon: "/images/magictouch.svg",
+    title: "Ver demonstração",
   },
-  {
-    id: "1",
-    icon: "/images/feature-2.png",
-    caption: "Secure & trustworthy",
-    title: "Sleep easy, we got your back",
-    text: "Your data security is our priority. With state-of-the-art encryption and robust privacy controls, Xora helps keeps your information secure and locked up tighter than Fort Knox.",
-    button: {
-      icon: "/images/docs.svg",
-      title: "Read the docs",
-    },
+},
+{
+  id: "1",
+  icon: "/images/feature-2.png",
+  caption: "Transparência e controle",
+  title: "Você no comando do seu investimento",
+  text: "Relatórios claros e acompanhamento em tempo real. Na Traffic Dev, cada real é tratado com responsabilidade para que você invista com segurança e confiança.",
+  button: {
+    icon: "/images/docs.svg",
+    title: "Conheça os planos",
+  },
   },
 ];
 
@@ -27,134 +27,135 @@ export const details = [
   {
     id: "0",
     icon: "/images/detail-1.png",
-    title: "AI automated video editing",
+    title: "Otimização automatizada de campanhas",
   },
   {
     id: "1",
     icon: "/images/detail-2.png",
-    title: "Collaborate with your team",
+    title: "Gestão colaborativa com transparência",
   },
   {
     id: "2",
     icon: "/images/detail-3.png",
-    title: "Ultra fast cloud-engine",
+    title: "Resultados rápidos com análise em tempo real",
   },
   {
     id: "3",
     icon: "/images/detail-4.png",
-    title: "24 / 7 Customer support",
+    title: "Suporte dedicado e disponível 24h",
   },
 ];
 
 export const faq = [
   {
-    id: "0",
-    question: "How easy is it to setup Xora?",
-    answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
-  },
-  {
-    id: "1",
-    question: "Can I integrate Xora with other platforms?",
-    answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
-  },
-  {
-    id: "2",
-    question: "How often do you add new content?",
-    answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
-  },
-  {
-    id: "3",
-    question: "What your refund policy?",
-    answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
-  },
-  {
-    id: "4",
-    question: "Do you have corporate plans?",
-    answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
-  },
-  {
-    id: "5",
-    question: "What happens when I’m out of storage?",
-    answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
-  },
-  {
-    id: "6",
-    question: "Can I upgrade my plan?",
-    answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
-  },
-  {
-    id: "7",
-    question: "How do I invite my team?",
-    answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
-  },
-  {
-    id: "8",
-    question: "Do you offer training for individuals and teams?",
-    answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
-  },
-  {
-    id: "9",
-    question: "I’m locked out of my account what do I do?",
-    answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
-  },
+  id: "0",
+  question: "É difícil configurar a estratégia de tráfego pago?",
+  answer:
+    "Nada disso! Nossa equipe garante uma configuração simples e eficiente, personalizada para o seu negócio desde o início.",
+},
+{
+  id: "1",
+  question: "Posso integrar meus anúncios com outras plataformas?",
+  answer:
+    "Claro! Realizamos integrações com redes sociais, Google, landing pages e muito mais para potencializar os resultados.",
+},
+{
+  id: "2",
+  question: "Com que frequência vocês otimizam os anúncios?",
+  answer:
+    "Otimizamos continuamente com base em dados reais, buscando sempre aumentar o retorno e reduzir os custos.",
+},
+{
+  id: "3",
+  question: "E se eu não gostar dos resultados?",
+  answer:
+    "Trabalhamos com relatórios transparentes e ajustes constantes. Se algo não estiver funcionando, vamos melhorar juntos!",
+},
+{
+  id: "4",
+  question: "Vocês oferecem planos para empresas?",
+  answer:
+    "Sim! Temos soluções personalizadas para empresas de todos os tamanhos, com foco em performance e crescimento.",
+},
+{
+  id: "5",
+  question: "O que acontece quando o orçamento acaba?",
+  answer:
+    "Monitoramos o orçamento em tempo real. Quando ele está perto do fim, ajustamos a estratégia ou pausamos campanhas conforme sua escolha.",
+},
+{
+  id: "6",
+  question: "Posso mudar de plano depois?",
+  answer:
+    "Com certeza! Você pode expandir sua campanha ou ajustar conforme os resultados e objetivos do seu negócio.",
+},
+{
+  id: "7",
+  question: "Como adiciono alguém da minha equipe ao projeto?",
+  answer:
+    "É só nos informar! Podemos incluir novos membros nos relatórios, reuniões e acessos conforme sua necessidade.",
+},
+{
+  id: "8",
+  question: "Oferecem treinamento sobre tráfego pago?",
+  answer:
+    "Sim! Podemos ensinar desde o básico até estratégias avançadas, tanto para indivíduos quanto para equipes.",
+},
+{
+  id: "9",
+  question: "Perdi o acesso à minha conta de anúncios. E agora?",
+  answer:
+    "Não se preocupe! Ajudamos você a recuperar o acesso com segurança e rapidez, mantendo suas campanhas protegidas.",
+}
+,
 ];
 
 export const plans = [
   {
-    id: "0",
-    title: "Core",
-    priceMonthly: 19,
-    priceYearly: 12,
-    caption: "Best for solo creators",
-    features: [
-      "100MB Cloud storage",
-      "100+ prompt templates",
-      "5 projects",
-      "24/7 support",
-    ],
-    icon: "/images/circle.svg",
-    logo: "/images/plan-1.png",
-  },
-  {
-    id: "1",
-    title: "Overdrive",
-    priceMonthly: 79,
-    priceYearly: 59,
-    caption: "Most popular plan",
-    features: [
-      "All Starter features",
-      "1TB additional storage",
-      "Unlimited projects",
-      "Analytics",
-    ],
-    icon: "/images/triangle.svg",
-    logo: "/images/plan-2.png",
-  },
-  {
-    id: "2",
-    title: "Team",
-    priceMonthly: 39,
-    priceYearly: 29,
-    caption: "Exclusively for teams",
-    features: [
-      "All Overdrive features",
-      "10TB additional storage",
-      "50% off per member",
-      "Real-time collaboration",
-    ],
-    icon: "/images/hexagon.svg",
-    logo: "/images/plan-3.png",
-  },
+  id: "0",
+  title: "Essencial",
+  priceMonthly: 900,
+  priceYearly: 10800,
+  caption: "Ideal para negócios individuais",
+  features: [
+    "Gerenciamento básico de campanhas",
+    "Relatórios mensais",
+    "Até 2 plataformas (Meta ou Google)",
+    "Suporte via e-mail",
+  ],
+  icon: "/images/circle.svg",
+  logo: "/images/plan-1.png",
+},
+{
+  id: "1",
+  title: "Profissional",
+  priceMonthly: 1700,
+  priceYearly: 20400,
+  caption: "Plano mais contratado",
+  features: [
+    "Todos os recursos do Essencial",
+    "Otimizações semanais",
+    "Campanhas multicanal (Meta + Google)",
+    "Relatórios com análise de desempenho",
+  ],
+  icon: "/images/triangle.svg",
+  logo: "/images/plan-2.png",
+},
+{
+  id: "2",
+  title: "Empresarial",
+  priceMonthly: 3200,
+  priceYearly: 38400,
+  caption: "Feito para equipes e agências",
+  features: [
+    "Todos os recursos do Profissional",
+    "Relatórios em tempo real",
+    "Suporte prioritário para equipe",
+    "Gestão colaborativa com acesso multiusuário",
+  ],
+  icon: "/images/hexagon.svg",
+  logo: "/images/plan-3.png",
+},
 ];
 
 export const testimonials = [
@@ -164,7 +165,7 @@ export const testimonials = [
     role: "Globalnomads",
     avatarUrl: "/images/testimonials/jessica-saunders.png",
     comment:
-      "Xora's customer support is second to none! They’re like my tech superheroes, always there when I need them.",
+      "O atendimento deles é sensacional! Sempre rápidos e eficientes quando preciso de ajuda.",
   },
   {
     id: "1",
@@ -172,7 +173,7 @@ export const testimonials = [
     role: "Vid capital intl",
     avatarUrl: "/images/testimonials/mark-erixon.png",
     comment:
-      "I was skeptical at first, but now I can't imagine our content operations without it. It's that impactful.",
+      "Usar os serviços deles facilitou muito nosso dia a dia e otimiza nossos resultados diários.",
   },
   {
     id: "2",
@@ -180,7 +181,7 @@ export const testimonials = [
     role: "Cyberleap",
     avatarUrl: "/images/testimonials/melanie-hurst.png",
     comment:
-      "Adopting this software was a breeze. It's made everyday tasks so much simpler.",
+      "As métricas que oferecem são fundamentais para tomar decisões certeiras no nosso negócio.",
   },
   {
     id: "3",
@@ -188,7 +189,7 @@ export const testimonials = [
     role: "Cyberleap",
     avatarUrl: "/images/testimonials/alicia-barker.png",
     comment:
-      "The analytics feature is like having a personal fortune teller. It's been instrumental in guiding our business decisions.",
+      "Comecei a usar os serviços recentemente e os resultados já aparecem. Ótima escolha para nós!",
   },
   {
     id: "4",
@@ -196,7 +197,7 @@ export const testimonials = [
     role: "Floclips",
     avatarUrl: "/images/testimonials/becky-snider.png",
     comment:
-      "Switched to Xora last month, and I'm already seeing results. Best decision for our team!",
+      "Ganharam eficiência e agilidade em nossas campanhas. Essa plataforma mudou tudo para melhor.",
   },
   {
     id: "5",
