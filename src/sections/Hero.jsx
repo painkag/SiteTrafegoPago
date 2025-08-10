@@ -1,6 +1,6 @@
 import { Element } from "react-scroll";
 import Button from "../components/Button.jsx";
-import { openWhatsApp } from "../utils/handleZap.js";
+import { openWhatsApp } from "../utils/handleZap.js"; // alterado aqui
 
 const Hero = () => {
   const whatsappNumber = "5511977154129";
@@ -22,7 +22,7 @@ const Hero = () => {
             </p>
             <Button
               icon="/images/zap.svg"
-              onClick={() => openWhatsApp(whatsappNumber, message)}
+              onClick={() => openWhatsApp(whatsappNumber, message)} // aqui usa a nova função
             >
               Entre em contato
             </Button>

@@ -15,6 +15,21 @@
 
       gtag('config', 'AW-16506400196');
     </script>
+    <script>
+function gtag_report_conversion(url) {
+  var callback = function () {
+    if (typeof(url) != 'undefined') {
+      window.location = url;
+    }
+  };
+  gtag('event', 'conversion', {
+      'send_to': 'AW-16506400196/V55zCL-ExrMaEMTb7r49',
+      'event_callback': callback
+  });
+  return false;
+}
+</script>
+
   </head>
   <body>
     <div id="root"></div>

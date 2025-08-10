@@ -1,10 +1,16 @@
-// BotaoZap.jsx
-import { openWhatsApp } from "../src/utils/handleZap"; // supondo que sua função esteja aqui
+import { openWhatsApp } from "../src/utils/handleZap";
 import Button from "./components/Button";
 
 const BotaoZap = () => {
-  const whatsappNumber = "5511977154129"; // coloque seu número
+  const whatsappNumber = "5511977154129";
   const message = "Olá, vim pelo site de tráfego pago, gostaria de mais informações.";
+
+  const handleClick = () => {
+    if (typeof gtag_report_conversion === "function") {
+      gtag_report_conversion();
+    }
+    openWhatsApp(whatsappNumber, message);
+  };
 
   return (
     <div
@@ -17,7 +23,7 @@ const BotaoZap = () => {
     >
       <Button
         icon="/images/whatsapp.png"
-        onClick={() => openWhatsApp(whatsappNumber, message)}
+        onClick={handleClick}
       >
         Fale no WhatsApp
       </Button>
